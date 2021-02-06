@@ -1,7 +1,12 @@
 import "./App.css";
+import LoadMaps from "./components/LoadMaps";
 
-function App() {
-  return <div className="App"></div>;
-}
+const App = () => {
+  return (
+    <div className="App">
+      <LoadMaps />
+    </div>
+  );
+};
 
 export default App;
