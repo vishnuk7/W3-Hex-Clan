@@ -19,7 +19,7 @@ const LoadMaps = () => {
           style={{ height: "100vh" }}
           center={[latitude, longitude]}
           zoom={13}
-          scrollWheelZoom={false}
+          scrollWheelZoom={true}
         >
           <TileLayer
             attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
